@@ -23,7 +23,7 @@ public class ProductSearch1 {
         String key=sc.next();
         
         Iterator<String> itr=products.iterator();
-        boolean found=true;
+        boolean found=false;
         while(itr.hasNext()) {
         	String product=itr.next();
         	if(product.toLowerCase().contains(key.toLowerCase())) {
