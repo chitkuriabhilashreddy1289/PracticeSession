@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ReverseNumber1 {
             static int  reversenumber(int num) {
-		
+
 		int rev = 0;
 		int rem = 0;
 
@@ -14,8 +14,8 @@ public class ReverseNumber1 {
 			num = num / 10;
 		}
 
-		
-		
+
+
 
 		return rev;
 	}

@@ -38,7 +38,7 @@ public class Mobile {
 	public void addstock(int quantity) {
 		stock=stock+quantity;
 	}
- //method to calculate price 
+ //method to calculate price
 	double sellPhone(int quantity) {
 		if (stock >= quantity) {
 			stock -= quantity;

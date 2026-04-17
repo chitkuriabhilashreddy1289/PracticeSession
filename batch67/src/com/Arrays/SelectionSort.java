@@ -16,13 +16,13 @@ public class SelectionSort {
 			temp = arr[min];
 			arr[min] = arr[i];
 			arr[i] = temp;
-				
+
 			}
-			
+
 
 		for (int n : arr) {
 			System.out.println(n);
 		}
-	
+
 	}
 }

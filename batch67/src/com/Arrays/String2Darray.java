@@ -7,9 +7,9 @@ public class String2Darray {
 		name[0][0]="Abhi";
 		name[1][1]="vinay";
 		name[2][2]="praveen";
-		for(int i = 0;i<name.length;i++) {
-			for(int j = 0;j<name[i].length;j++) {
-				System.out.print(name[i][j]+" ");
+		for (String[] element : name) {
+			for(int j = 0;j<element.length;j++) {
+				System.out.print(element[j]+" ");
 			}
 			System.out.println();
 		}

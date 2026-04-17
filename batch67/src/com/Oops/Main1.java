@@ -9,7 +9,7 @@ public class Main1 extends Salary{
 		dev.Office();
 		dev.work();
          Salary s=new Main1();
-         
+
          s.setAmount(50000);
         System.out.println("Salary:"+s.getAmount());
 	}

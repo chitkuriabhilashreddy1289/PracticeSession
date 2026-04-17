@@ -18,9 +18,9 @@ public class Alphabets {
 		System.out.println("Alphabets along with numbers");
 		int i =1;
 		  for (char j = 'A'; j <= 'Z'; j++,i++) {
-		 
+
 	 System.out.println(j+"->"+i); }
-	
+
 	}
 
 }

@@ -32,34 +32,34 @@ public class PersonalLoan {
 		String adhaar=sc.next();
 		String adhaarRegex="^[2-9][0-9]{11}$";
 				return Pattern.matches(adhaarRegex, adhaar);
-		
+
 	}
 	boolean validatePan() {
 		System.out.println("Enter Pan number");
 		String Pan=sc.next();
 		String PanRegex="[A-Z]{5}[0-9]{4}[A-Z]{1}";
 		return Pattern.matches(PanRegex,Pan);
-		
+
 	}
 
 	public static void main(String[] args) {
 		System.out.println("Welcome to the Loan section");
 		PersonalLoan p=new PersonalLoan();
 		//p.validateAdhaar();
-		
+
 		if(p.validateAdhaar() && p.validatePan()) {
-			
+
 			if(p.getSalaryInfo()>150000&&p.cibilScore()>750&&p.getAgeInfo()>25) {
 			System.out.println("congratulations yourLoan got Approved");
 			System.out.println("your loan rate of intrest is:"+p.getIntrestrate());
 			}else {
 				System.out.println("your loan got Rejected");}
 		}
-			else {	
+			else {
 				System.out.println("You have Entered incorrect data");
-			
+
 		}
 	}
 
 	}
-	
+

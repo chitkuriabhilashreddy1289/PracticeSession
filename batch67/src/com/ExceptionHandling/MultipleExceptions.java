@@ -15,9 +15,9 @@ public class MultipleExceptions {
 		try {
 			System.out.println("try 2");
 			System.out.println(10/0);
-			
+
 		}catch(Throwable e) {
-			
+
 		}
 
 		}

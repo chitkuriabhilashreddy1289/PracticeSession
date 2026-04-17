@@ -60,7 +60,7 @@ class UserAccount {
 	}
 
 	public class OnlinePaymentSystem {
-		 
+
 		public static void main(String[] args) {
 			 Scanner sc = new Scanner(System.in);
 
@@ -92,5 +92,5 @@ class UserAccount {
 			double amount=sc.nextDouble();
 			payment.pay(u, amount);
 		}
-		
+
 	}

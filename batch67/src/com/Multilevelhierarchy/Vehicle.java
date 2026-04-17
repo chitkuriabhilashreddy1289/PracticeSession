@@ -5,7 +5,7 @@ public class Vehicle {
 
 	Vehicle(String type) {
 		this.type = type;
-		
+
 	}
 }
 
@@ -15,7 +15,7 @@ class Car extends Vehicle {
 	Car(String type, String brand) {
 		super(type);
 		this.brand = brand;
-		
+
 	}
 }
 
@@ -26,7 +26,7 @@ class ElectricBus extends Car {
 		super(type, brand);
 
 		this.batterycapacity = batterycapacity;
-		
+
 	}
 
 	void display() {

@@ -27,16 +27,16 @@ public class AddingLists {
 //			}
 //		}
 //		System.out.println(list2);
-		
-		
+
+
 //		for (Integer l : list1) {
 //			if (!list2.contains(l)) {
 //				list2.add(l);
 //			}
 //		}
 //		System.out.println(list2);
-		
-	
+
+
 
 	}
 }

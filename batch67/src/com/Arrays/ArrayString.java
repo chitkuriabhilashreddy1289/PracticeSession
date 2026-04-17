@@ -9,10 +9,10 @@ public class ArrayString {
            name[2]="shiva";
            name[3]="sai";
            name[4]="praveen";
-           for(int i=0;i<name.length;i++) {
-        	   System.out.println(name[i]);
+           for (String element : name) {
+        	   System.out.println(element);
            }
-           
+
 	}
 
 }

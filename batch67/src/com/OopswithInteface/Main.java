@@ -18,5 +18,5 @@ public class Main {
         d.Sleep();
         Animal.breath();
         }
-       
+
 }

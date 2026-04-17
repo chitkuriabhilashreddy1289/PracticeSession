@@ -13,7 +13,7 @@ public class Student{
 	Student(String name,Address address){
 		this.name=name;
 		this.address=address;
-		
+
 	}
 	Student(Student s){
 		this.address=s.address;
@@ -26,8 +26,8 @@ public class Student{
 		Student s2=new Student(s1);
 		s2.address.city="Bangalore";
 		System.out.println(s1.address.city);
-		
-		
+
+
 	}
 
 }

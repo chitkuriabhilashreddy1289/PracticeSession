@@ -7,15 +7,15 @@ public class TestDemoEx {
 		String str = "Abhi";
 		String s1 = null;
 		String s2 = "null";
-		try {	
+		try {
 		System.out.println(str.length());
-	
+
 		System.out.println(s1.length());
-		
+
 		System.out.println(s2.length());
 	}catch(NullPointerException e){
 		System.out.println("gaqj");
-		
+
 	}
 		try {
 			System.out.println("in try");

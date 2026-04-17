@@ -9,7 +9,7 @@ public class ArraysPractise {
           for(int i = 0;i<=number.length;i++) {
         	  sum=sum+i;
         	  avg=sum/number.length;
-        	  
+
           }
        System.out.println( "sum of array elements:"+ sum);
        System.out.println( "average of array elements:"+ avg);

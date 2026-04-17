@@ -6,7 +6,8 @@ public class Polymorphism {
 	}
 }
 class Animal extends Polymorphism{
-	
+
+@Override
 void sound() {
 	System.out.println("dog is barking");
 }

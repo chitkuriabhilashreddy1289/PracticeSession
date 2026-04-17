@@ -14,9 +14,9 @@ public class TestExDemo1 {
             catch(IndexOutOfBoundsException ar) {
             	ar.printStackTrace();
             }
-            for(int i=0;i<arr.length;i++) {
-            	System.out.println(arr[i]);
-            	
+            for (int element : arr) {
+            	System.out.println(element);
+
             }
             System.out.println("main");
 	}

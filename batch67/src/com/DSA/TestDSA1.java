@@ -10,7 +10,7 @@ public class TestDSA1 {
 			if (arr[i] == key) {
 				System.out.println("key Index:" + i);
 				found=true;
-			} 
+			}
 		}
 		if(!found){
 			System.out.println("key not found");

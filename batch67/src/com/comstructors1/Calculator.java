@@ -26,11 +26,11 @@ public class Calculator {
 	/*
 	 * int mod(INT a, int b) { if (b == 0) {
 	 * ArithmeticException("Division by zero is not allowed");
-	 * 
+	 *
 	 * return a % b;
 	 */
-		
-	
+
+
 
 	public static void main(String[] args) {
 		Calculator c = new Calculator();

@@ -2,7 +2,6 @@ package com.Collections;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
 
 public class SalMaxIterator {
 
@@ -17,9 +16,7 @@ public class SalMaxIterator {
 		salary.add(23000);
 
 		int max = 0;
-		Iterator<Integer> itr = salary.iterator();
-		while (itr.hasNext()) {
-			Integer temp = itr.next();
+		for (Integer temp : salary) {
 			if (temp > max) {
 				max = temp;
 			}

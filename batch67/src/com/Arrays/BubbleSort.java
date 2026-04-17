@@ -16,12 +16,12 @@ public class BubbleSort {
         			 flag=true;
         		 }
         		 count++;
-        		  
+
         	 }
         	 if(!flag) {
         		 break;
         	 }
-        	 
+
          }
          for(int a:arr) {
         	 System.out.println(a+" ");

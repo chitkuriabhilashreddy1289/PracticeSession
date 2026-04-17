@@ -49,7 +49,7 @@ public class Main {
                 case 4:
                     System.out.print("Enter old PIN: ");
                     String oldPin = sc.next();
-                    System.out.print("Enter new PIN: "); 
+                    System.out.print("Enter new PIN: ");
                     String newPin = sc.next();
                     user.pinChange(oldPin, newPin);
                     break;

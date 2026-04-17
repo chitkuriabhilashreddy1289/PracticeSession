@@ -8,8 +8,8 @@ public class TestDemoEx2 {
 
 	public static void main(String[] args) {
 		try {
-			
-		
+
+
      Scanner sc=new Scanner(System.in);
      System.out.println("enter your age");
      int age=sc.nextInt();

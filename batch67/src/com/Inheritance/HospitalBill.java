@@ -10,7 +10,7 @@ public class HospitalBill {
 	    h.setDailyCharges(1500);
 	    h.setMedicineCharges(10000.0);
 	    h.displayBill();
-	    
+
 	}
 
 }

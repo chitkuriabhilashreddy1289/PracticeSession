@@ -7,7 +7,7 @@ public class MethodOveroading {
 	double sum(double a,double b,double c) {
 		return a+b+c;
 	}
-	
+
 
 	public static void main(String[] args) {
 		MethodOveroading m=new MethodOveroading();

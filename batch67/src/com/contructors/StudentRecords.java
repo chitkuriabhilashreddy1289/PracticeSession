@@ -4,20 +4,20 @@ public class StudentRecords {
 	  String name;
       int id;
       char section;
-      
+
       StudentRecords(String name,int id,char section){
     	  this.name=name;
     	  this.id=id;
     	  this.section=section;
       }
-      
+
       StudentRecords(StudentRecords s1){
     	  this.name=s1.name;
     	  this.id=s1.id;
     	  this.section=s1.section;
       }
-    	
-      
+
+
       void display() {
     	  System.out.println(name);
     	  System.out.println(id);

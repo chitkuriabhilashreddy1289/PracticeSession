@@ -35,16 +35,16 @@ public class ArrayListEx {
 		students.addAll(girls);
 		System.out.println(girls.contains("Ananya"));
 		System.out.println(boys.contains("vijay"));
-	
-		
-		
+
+
+
 		System.out.println(boys);
 		System.out.println(students);
 		System.out.println(students.containsAll(boys));
 		System.out.println(students.containsAll(teachers));
 		students.removeAll(boys);
 		System.out.println("student:"+students);
-		
+
 
 	}
 

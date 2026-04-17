@@ -9,9 +9,9 @@ public class BankDetails {
 		System.out.println("Main method started");
 
 		BankDetails b1 = new BankDetails();
-		long n1 = b1.Accnum();                                       
+		long n1 = b1.Accnum();
 		String a1 = b1.Accountholder();
-		double d1 = b1.deposit();                                 
+		double d1 = b1.deposit();
 		double f1 = b1.fixedamount();
 		double t1 = b1.total();
 		double total = b1.deposit() + f1;

@@ -7,7 +7,7 @@ import java.util.Iterator;
 public class ArrayList3 {
 
 	public static void main(String[] args) {
-		 
+
 		Collection<String> juniors = new ArrayList();
 		juniors.add("hardik");
 		juniors.add("Ishan");
@@ -16,7 +16,7 @@ public class ArrayList3 {
 		juniors.add("sky");
 		/*
 		 * for(String name:names) {
-		 * 
+		 *
 		 * System.out.println(name);}
 		 */
 

@@ -5,7 +5,7 @@ public class OverLoading {
 	 public  double getArea(double r) {
   	   System.out.println("called4");
   	   return 3.14*r*r;
-	 }  
+	 }
 	 public  double getArea(int b,int l) {
 	  	   System.out.println("called");
 	  	   return l*b;
@@ -21,7 +21,7 @@ public class OverLoading {
 	 public  double getArea(float s) {
 	  	   System.out.println("called3");
 	  	   return s*s;
-		 }  
+		 }
 	public static void main(String[] args) {
 		OverLoading o=new OverLoading();
 		System.out.println(o.getArea(6d));

@@ -7,7 +7,7 @@ public class SubArray {
 		int[] arr = { 1, 0, 1, 0, 1, 1, 0 };
 
 		int max = -1;
-		
+
 
 		for (int i = 0; i < arr.length; i++) {
 			int count0 = 0;

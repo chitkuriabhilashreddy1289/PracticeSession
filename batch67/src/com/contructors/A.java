@@ -23,15 +23,15 @@ public class A {
 			c(){
 				super();
 				System.out.println("B1");
-				
+
 			}
-		
+
 		}
 	}
-	
+
 
 	public static void main(String args[]) {
        A obj=new A();
 	}
-		
+
 }

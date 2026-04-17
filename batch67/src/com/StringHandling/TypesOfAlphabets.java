@@ -18,7 +18,7 @@ public class TypesOfAlphabets {
     	  }else {
     		  conscount++;
     	  }
-    	  
+
       }
       System.out.println("vowcount:"+vowcount);
       System.out.println("conscount:"+conscount);

@@ -4,7 +4,7 @@ public class Arrays {
 
 	public static void main(String[] args) {
 		System.out.println("Main method Started");
-		
+
 //		int []num= {1,2,3};
 //		double sum=0;
 //		double avg=0;
@@ -12,7 +12,7 @@ public class Arrays {
 //			sum=sum+i;
 //			avg=sum/num.length;
 //		}
-//	
+//
 		int []num1= {4,5,6};
 		double sum1=0;
 		double avg1=0;
@@ -24,12 +24,12 @@ public class Arrays {
 //		System.out.println("Rows avg:"+avg);
 		System.out.println("Rows sum:"+sum1);
 		System.out.println("Rows avg:"+avg1);
-		
+
 	}
 
 	public static void sort() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }

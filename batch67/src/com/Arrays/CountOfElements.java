@@ -11,7 +11,7 @@ public class CountOfElements {
 			if(arr[i]==arr[i+1]) {
 				count++;
 			}
-			
+
 				else {
 					System.out.println(arr[i]+" : "+count);
 					count=1;

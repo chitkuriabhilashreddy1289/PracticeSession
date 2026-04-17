@@ -57,15 +57,15 @@ public class HospitalManagement {
 	}
 	 public double calculateBill() {
 		 return (Daysadmitted*DailyCharges)+MedicineCharges;
-			 
-		 
+
+
 	 }
-	 
-	
+
+
 	  double calculateDiscount() {
 		  if(Daysadmitted>=10) {
 			  return calculateBill()*0.10;
-				 
+
 			 }
 		  else if(Daysadmitted>=5) {
 			  return calculateBill()*0.05;
@@ -88,7 +88,7 @@ public class HospitalManagement {
             System.out.println("Finalprice:"+Finalprice);
 
 	    }
-	
+
 
 	public static void main(String[] args) {
 		HospitalManagement h= new HospitalManagement();
@@ -98,7 +98,7 @@ public class HospitalManagement {
 	    h.setDailyCharges(1500);
 	    h.setMedicineCharges(10000.0);
 	    h.displayBill();
-	    
+
 	}
 
 }

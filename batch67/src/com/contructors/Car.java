@@ -18,14 +18,14 @@ public class Car {
 	Car(String model){
 		this.model = model;
 		System.out.println("one arg constructor called");
-		
+
 	}
 	// two arg constructor
 	Car(String model, String brand) {
 		this.model = model;
 		this.brand = brand;
 		System.out.println("two arg constructor called");
-		
+
 	}
 	Car(String model, String brand, double price) {
 		this.brand = brand;

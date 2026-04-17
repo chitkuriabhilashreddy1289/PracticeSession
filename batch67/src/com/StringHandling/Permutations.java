@@ -3,7 +3,7 @@ package com.StringHandling;
 import java.util.Scanner;
 
 public class Permutations {
-	
+
 
 	    // Function to generate permutations
 	    static void permute(char[] arr, int l, int r) {

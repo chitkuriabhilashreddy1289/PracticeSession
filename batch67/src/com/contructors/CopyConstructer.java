@@ -3,7 +3,7 @@ package com.contructors;
 public class CopyConstructer {
 	int id;
 	String Name;
-	
+
 
 	CopyConstructer(int i, String n) {
 		id = i;

@@ -16,7 +16,7 @@ public class SpyNumber {
         	  sum = sum+digit;
         	  mul=mul*digit;
         	  num=num/10;
-        	  
+
           }
           if(sum==mul) {
         	  System.out.println("number is a spy");
@@ -25,7 +25,7 @@ public class SpyNumber {
         	  System.out.println("number is not a spy");
           }
           }
-        	  
+
 	}
 
 

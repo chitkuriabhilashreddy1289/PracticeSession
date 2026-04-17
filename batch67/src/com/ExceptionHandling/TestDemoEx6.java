@@ -1,6 +1,5 @@
 package com.ExceptionHandling;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -20,11 +19,11 @@ public class TestDemoEx6 {
 				e.printStackTrace();
 			}
 			}
-		
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+
 		System.out.print("main ended");
 	}
 

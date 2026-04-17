@@ -1,20 +1,17 @@
 package com.Oops;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Employee1 {
 
 	private int id;
 	private String name;
 	private double salary;
-	
+
 	Employee1(int id,String name,double salary ){
 		this.id=id;
 		this.name=name;
 		this.salary=salary;
-		
-		
+
+
 	}
 
 	public int getId() {
@@ -31,8 +28,8 @@ public class Employee1 {
 	}
 	public void setSalary(double salary) {
 		this.salary=salary;
-		
+
 	}
-	
-	
+
+
 }

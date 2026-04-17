@@ -9,15 +9,15 @@ public class StringConstantPool {
        String name3=new String("vcube");
        //String
        String s="Hello";
-       s=s+"vinay";//slow 
-       
+       s=s+"vinay";//slow
+
        // String builder
        StringBuilder sb=new StringBuilder("Hello");
        sb.append("Vinay");
        //Fast
        //String buffer
        StringBuffer sf=new StringBuffer("Hello");
-       sf.append("Vinay");//to modify text in multi-thread programs  
+       sf.append("Vinay");//to modify text in multi-thread programs
        //intern()-forces a string into string constant pool
        String a=new String("vcube");
        String b=a.intern();

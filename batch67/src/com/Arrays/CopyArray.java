@@ -11,6 +11,6 @@ public class CopyArray {
         for(int n:temp) {
         	System.out.print(n+" , ");
        }
-    
+
 	}
 }

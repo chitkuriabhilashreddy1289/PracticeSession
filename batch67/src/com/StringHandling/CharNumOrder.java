@@ -20,11 +20,11 @@ public class CharNumOrder {
             		   result+=c;
             	   }
                }
-               
+
          }
          if(!str1.equals("")) {
   		   sum+=Integer.parseInt(str1);
-  		   
+
   	   }
          System.out.println("sum:"+sum);
          System.out.println("String :"+result);
@@ -32,4 +32,4 @@ public class CharNumOrder {
 
 }
 
-	
+

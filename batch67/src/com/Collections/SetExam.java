@@ -17,7 +17,7 @@ public class SetExam {
 		s.add(6);
 		s.add(34);
 		s.add(16);
-		
+
 
 		System.out.println(s);
 

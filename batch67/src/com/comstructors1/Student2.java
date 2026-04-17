@@ -9,7 +9,7 @@ public class Student2 {
 	  this.id =  id;
 	  this.name =  name;
 	  this.section =  section;
-	  
+
   }
   //copy constructor
   Student2( Student2 original1,String section){
@@ -22,8 +22,8 @@ public class Student2 {
 	  System.out.println("Student Name:"+name);
 	  System.out.println("Student Section:"+section);
   }
-  
-  
+
+
 
 	public static void main(String[] args) {
 		Student2 original1 = new Student2(23,"abhi","d");

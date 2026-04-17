@@ -19,8 +19,8 @@ public class MaxSaalary {
         		  max=s;
         	  }
           }
-          System.out.println(max); 
-          
+          System.out.println(max);
+
 	}
 
 }

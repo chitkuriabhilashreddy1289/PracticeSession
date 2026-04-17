@@ -1,44 +1,46 @@
 package com.Assignment;
 
 public class Vehicle {
-	
+
 	String vehiclenumber;
 	String type;
 	int passcode;
-	
+
 	Vehicle(String vehiclenumber,String type,int passcode){
 		this.vehiclenumber=vehiclenumber;
 		this.type=type;
 		this.passcode=passcode;
-		
+
 	}
-	
+
 	boolean isVip(){
 		if(isPrime()) {
 			return true;
-			
+
 		}
 		return false;
 	}
 
 	 boolean isPrime() {
 		 int n= passcode;
-		 if(n<=1) 
-			 return false;
+		 if(n<=1) {
+			return false;
+		 }
 			 for(int i=2;i<=n/2;i++) {
-				 if(n%i==0) 
-					 return false;
-				 
-			 	 
+				 if(n%i==0) {
+					return false;
+				 }
+
+
 	 }
 		return true;
 	}
 
 }
 class ParkingLot{
-	
+
 	int totalAmount=0;
-	
+
 	void parkVehicle(Vehicle v) {
 		if(v.isVip()) {
 			System.out.println("0 fee you got free parking for:"+v.type +"  "+"\nVehiclenumber:"+v.vehiclenumber);
@@ -58,8 +60,8 @@ class ParkingLot{
 			System.out.println("Amount in Rs:"+100);
 			totalAmount+=100;
 	}
-	
-	
+
+
 }
 	void showcollection() {
 		System.out.println("\nTotalAmount:"+totalAmount);

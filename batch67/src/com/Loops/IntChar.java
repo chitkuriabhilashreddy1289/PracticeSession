@@ -15,7 +15,7 @@ public class IntChar {
         	c++;
         	System.out.println();
         }
-        
+
 	}
 
 }

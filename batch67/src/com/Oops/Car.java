@@ -6,7 +6,7 @@ public class Car implements CarInterface{
 	Car(String brand,int speed){
 		this.brand=brand;
 		this.speed=speed;
-		
+
 	}
 
 	@Override
@@ -17,13 +17,13 @@ public class Car implements CarInterface{
         }  else {
         	speed+=10;
         }
-        
+
         display();
 	}
 
 	@Override
 	public void Break() {
-		
+
 		if(speed-10<0) {
 		    speed= 0;
 		}
@@ -33,7 +33,7 @@ public class Car implements CarInterface{
 		display();
 	}
 
-	
+
 	@Override
 	public void display() {
 		System.out.println("Speed:"+speed+"km/h");

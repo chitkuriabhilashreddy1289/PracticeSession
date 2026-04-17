@@ -14,7 +14,7 @@ public class BubbleSort1 {
 	}
 
 	public static void main(String[] args) {
-		
+
 		BubbleSort1 b1 = new BubbleSort1();
 		{
 			System.out.println("sai");

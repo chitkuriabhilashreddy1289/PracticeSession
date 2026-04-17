@@ -12,7 +12,7 @@ public class MergeSort {
 		}
 		for (int j = 0; j < b.length ; j++) {
             c[a.length+j]=b[j];
-            
+
 		}
 		System.out.print("[");
 		for(int n:c) {

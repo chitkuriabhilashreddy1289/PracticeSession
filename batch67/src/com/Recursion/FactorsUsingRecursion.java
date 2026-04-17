@@ -20,8 +20,8 @@ public class FactorsUsingRecursion {
 		System.out.println("Enter a number");
 		int n = sc.nextInt();
 		System.out.println(n);
-		fact(n,1); 
-		
+		fact(n,1);
+
 		sc.close();
 
 	}

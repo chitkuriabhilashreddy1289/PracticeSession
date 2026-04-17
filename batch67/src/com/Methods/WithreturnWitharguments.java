@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class WithreturnWitharguments {
 	double areaofrectangle(double length,double breadth) {
    	 return length*breadth;
-   	 
+
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in) ;
@@ -16,12 +16,12 @@ public class WithreturnWitharguments {
 		WithreturnWitharguments t1=new WithreturnWitharguments();
 		double area =t1.areaofrectangle(n1,n2);
 		System.out.println("Area of Rectangle:"+area);
-				
-		
-		
-			
+
+
+
+
 		}
-                  
+
 	}
 
 

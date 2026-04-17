@@ -1,6 +1,5 @@
 package com.FileIO;
 
-import java.beans.Transient;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -8,7 +7,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 class Student implements Serializable{
-	
+
 	private static final long serialVersionUID = 5774902676152498084L;
 	int id=123;
 	String name="Abhi";

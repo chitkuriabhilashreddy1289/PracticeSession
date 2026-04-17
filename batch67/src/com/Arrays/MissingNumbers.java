@@ -1,7 +1,7 @@
 package com.Arrays;
 
  import java.util.Arrays;
- 
+
 public class MissingNumbers {
 
 	public static void main(String[] args) {
@@ -15,6 +15,6 @@ public class MissingNumbers {
 				  arr[i]++;
 			  }
 		  }
-		
+
 	}
 }

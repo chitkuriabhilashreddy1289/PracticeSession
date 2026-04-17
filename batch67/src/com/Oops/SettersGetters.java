@@ -22,9 +22,9 @@ public class SettersGetters {
 	public void setEmpage(int empage) {
 		this.empage = empage;
 	}
-	
-	
-	
-	 
+
+
+
+
 
 }

@@ -12,37 +12,37 @@ public class ZoomRentals {
 
 	static String companyname() {
 	return "zoomrentals";}
-	
+
  int dailyrentals() {
 		 dailyrent = 1500;
 		 System.out.println(dailyrent);
 	        return dailyrent;
 	 }
 	   static int totalrent(int days,int dailyrent) {
-	   
+
 		  return dailyrent*days;
-		  
+
 		  }
 	   double insurance() {
 		   insurance = 500;
 		  return insurance;
 		  }
-			
-		  
+
+
 
 		void show() {
 			System.out.println(dailyrent);
 			System.out.println(insurance);
 			System.out.println(days);
 			System.out.println(total);
-			
-			
+
+
 		}
-		  
-		  
-		 
-          
-	
+
+
+
+
+
 
 	public static void main(String[] args) {
 		System.out.println("main method started");
@@ -54,9 +54,8 @@ public class ZoomRentals {
 				  int total= totalrent( days, dailyrent);
 
      System.out.println(total );
-        		
-        
+
+
         }
-      
+
         }
-        

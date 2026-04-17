@@ -11,8 +11,8 @@ public class TestSum1 {
 		 }
 		 return sum;
 	 }
-   	 
-   	  
+
+
 
 	public static void main(String[] args) {
       int arr[]= {153,167,187,134,185};
@@ -20,8 +20,8 @@ public class TestSum1 {
     	int sum=digitSum(num);
     	 System.out.print(num+""+sum+" ");
      }
-      
-    
+
+
       }
 	}
 

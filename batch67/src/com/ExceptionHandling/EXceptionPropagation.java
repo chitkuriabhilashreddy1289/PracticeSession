@@ -9,9 +9,9 @@ public class EXceptionPropagation {
 			System.out.println("method1 finally block excuted");
 		}
 	}
-	
+
 	static void method2(){
-		System.out.println("method 2 started");	
+		System.out.println("method 2 started");
 		try {
 			method3();
 		}finally {
@@ -25,7 +25,7 @@ public class EXceptionPropagation {
 		}finally {
 			System.out.println("method3 finally block excuted");
 		}
-		
+
 	}
 
 	public static void main(String[] args) {
@@ -36,12 +36,12 @@ public class EXceptionPropagation {
 			System.out.println("Exception handled in main");
 			System.out.println(e.getMessage());
 		}
-		System.out.println("main ended"); 
+		System.out.println("main ended");
 
-		
-			
+
+
 		}
 
-	
+
 
 }

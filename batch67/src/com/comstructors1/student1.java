@@ -16,7 +16,7 @@ public class student1 {
 		this.roll = s1.roll;
 		this.marks = marks;
 	}
-	
+
 	void display() {
 		System.out.println("name : " + name);
 		System.out.println("roll number : " + roll);
@@ -27,10 +27,10 @@ public class student1 {
 		System.out.println("main method started");
 		student1 s1 = new student1("rohith");
 		s1.display();
-		
+
 		student1 s2 = new student1(s1, 10);
 		s2.display();
-		
+
 		student1 s3 = new student1(s2, 300);
 		s3.display();
 

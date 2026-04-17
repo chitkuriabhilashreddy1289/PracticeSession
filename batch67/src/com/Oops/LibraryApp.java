@@ -4,7 +4,7 @@ public class LibraryApp {
 
 	public static void main(String[] args) {
 		//LibraryApp l=new LibraryApp();
-		LibraryMember l1=new DriverClass();  
+		LibraryMember l1=new DriverClass();
 		l1.setBookName("java");
 		l1.setBooksborrowed(5);
 		LibraryMember l=new PremiumMember();
@@ -16,7 +16,7 @@ public class LibraryApp {
 		l.setBookName("data science");
 		System.out.println("student fee :"+l1.calculatefee());
 		System.out.println("student fee :"+l.calculatefee());
-	} 
-	
+	}
+
 
 }

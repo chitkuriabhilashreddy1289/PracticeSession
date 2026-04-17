@@ -16,8 +16,8 @@ public class StringbyNum {
         	 }
          }
          System.out.println(result);
-             
-        
+
+
 	}
 
 }

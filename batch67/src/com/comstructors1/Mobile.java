@@ -37,8 +37,8 @@ public class Mobile {
 		Mobile m = new Mobile("realme", 20000.0, "red");
 		Mobile m1 = new Mobile("redme", 30000.0, "green");
 		Mobile m2= new Mobile("iphone",70000.0,"white");
-		
-		
+
+
 		m.showdetails();
 		m1.showdetails();
 		m2.showdetails();

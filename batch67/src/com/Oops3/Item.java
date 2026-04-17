@@ -26,8 +26,8 @@ public class Item {
 		   temp= code % 10;
 		   sum = sum * 10 + temp;
 			code = code / 10;
-			
-		
+
+
 		if (temp == sum) {
 			return true;
 		}

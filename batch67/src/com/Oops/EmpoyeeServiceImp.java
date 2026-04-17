@@ -32,7 +32,7 @@ public class EmpoyeeServiceImp implements EmployeeService {
 
 	@Override
 	public void updateSalary(int id, double salary) {
-		Employee1 emp =(Employee1) empList.stream()
+		Employee1 emp =empList.stream()
 				.filter(e->e.getId()==id)
 				.findFirst()
 				.orElse(null);

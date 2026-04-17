@@ -18,9 +18,9 @@ public class FindPrimeNumbersInArray {
 
 			}
 			if(isprime) {
-        		System.out.println("prime numbers:"+n);  
+        		System.out.println("prime numbers:"+n);
         	   }
 		}
-		
+
 	}
 }

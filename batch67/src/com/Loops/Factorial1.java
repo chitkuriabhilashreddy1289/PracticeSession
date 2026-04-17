@@ -9,7 +9,7 @@ public class Factorial1 {
 		 }
 		 return n*findFactorial(n-1);
 	 }
-	
+
 
 	public static void main(String[] args) {
 		Factorial1 f=new Factorial1();

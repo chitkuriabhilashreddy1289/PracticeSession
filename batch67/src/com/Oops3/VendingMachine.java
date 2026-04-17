@@ -3,12 +3,12 @@ package com.Oops3;
 public class VendingMachine {
 
 	        int coins=0;
-		
+
 		void insertCoins(int c) {
 			coins=coins+c;
 			System.out.println("Insert coins:"+c);
 			System.out.println("Total coins:"+coins);
-			
+
 		}
 		void buyItem(Item i) {
 			if(i.isfree()) {

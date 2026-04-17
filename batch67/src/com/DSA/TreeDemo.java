@@ -1,7 +1,7 @@
 package com.DSA;
 
 public class TreeDemo {
-	
+
 	   public static void main(String[] args) {
 
 	        Node root = new Node(10);
@@ -11,9 +11,9 @@ public class TreeDemo {
 	        System.out.println("Root: " + root.data);
 	        System.out.println("Left: " + root.left.data);
 	        System.out.println("Right: " + root.right.data);
-	   
+
 	    }
-	
+
 
 }
 

@@ -37,6 +37,7 @@ abstract class Payment {
 }
 
 class UPIpayment extends Payment {
+	@Override
 	public void pay(UserAccount user, double amount) {
 		System.out.println("processing UPIpayment");
 		user.deductBalance(amount);
@@ -44,6 +45,7 @@ class UPIpayment extends Payment {
 }
 
 class NetBankingpayment extends Payment {
+	@Override
 	public void pay(UserAccount user, double amount) {
 		System.out.println("processing UPIpayment");
 		user.deductBalance(amount);
@@ -51,6 +53,7 @@ class NetBankingpayment extends Payment {
 }
 
 class Cardpayment extends Payment {
+	@Override
 	public void pay(UserAccount user, double amount) {
 		System.out.println("processing UPIpayment");
 		user.deductBalance(amount);

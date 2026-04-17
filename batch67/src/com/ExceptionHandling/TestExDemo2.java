@@ -8,11 +8,11 @@ public class TestExDemo2{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter age");
 		int age=sc.nextInt();
-		
+
 		if(age<18) {
 			throw new ChanduException("babu niku inka time undi ra");
 		}
-		
+
 	}
 
 }

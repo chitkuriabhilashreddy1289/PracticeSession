@@ -3,11 +3,11 @@ package com.Oops;
 class Item {
 	private String title;
 	private int id;
-	
+
 	public Item(String title,int id){
 		this.title=title;
 		setId(id);
-		
+
 	}
 	public String getTitle() {
 		return title;
@@ -15,7 +15,7 @@ class Item {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	
+
 	public int getId() {
 
 		return id;
@@ -29,13 +29,13 @@ class Item {
 			System.out.println("Invalid Id");
 		}
 	}
-	
 
-	
 
-	
-	
-	
+
+
+
+
+
 
 	public void showDetails() {
 		System.out.println("Title:" + title);
@@ -57,9 +57,10 @@ class Book extends Item {
 		}*/
 
 	 }
-	
 
 
+
+	@Override
 	public void showDetails() {
 		super.showDetails();
 		System.out.println("Author:"+author);
@@ -83,14 +84,15 @@ class Ebook extends Book{
 			System.out.println("size is more than expected");
 		}
 	}
-	
 
-	
+
+
+	@Override
 	public void showDetails() {
 		super.showDetails();
 		System.out.println("filesizeMB:"+filesizeMB);
 	}
-		
+
 }
 public class Library {
 

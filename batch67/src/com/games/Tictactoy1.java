@@ -37,10 +37,13 @@ public class Tictactoy1 {
 	}
 
 	public static boolean isdraw() {
-		for (char[] c2 : c)
-			for (char c1 : c2)
-				if (c1 == ' ')
+		for (char[] c2 : c) {
+			for (char c1 : c2) {
+				if (c1 == ' ') {
 					return false;
+				}
+			}
+		}
 
 		return true;
 	}
@@ -79,6 +82,6 @@ public class Tictactoy1 {
 		}
 
 	}
-	      
+
 
 }

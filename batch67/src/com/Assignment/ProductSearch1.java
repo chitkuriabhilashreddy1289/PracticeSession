@@ -1,7 +1,6 @@
 package com.Assignment;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
@@ -17,15 +16,13 @@ public class ProductSearch1 {
         products.add("Apple AirPods");
         products.add("Mobile Charger");
         products.add("Bluetooth Headphones");
-        
+
         Scanner sc=new Scanner(System.in);
         System.out.println("enter a key to search");
         String key=sc.next();
-        
-        Iterator<String> itr=products.iterator();
+
         boolean found=false;
-        while(itr.hasNext()) {
-        	String product=itr.next();
+        for (String product : products) {
         	if(product.toLowerCase().contains(key.toLowerCase())) {
         		System.out.println(product);
         		found=true;
